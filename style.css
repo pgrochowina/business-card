@@ -7,3 +7,48 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: white;
+  width: 624px;
+  border-radius: 16px;
+  margin: 16px;
+  padding: 32px;
+  font-family: Arial;
+}
+
+.card__header{
+  margin-bottom: 24px;
+}
+
+.card__name{
+  font-size: 36px;
+  margin: 0px;
+}
+
+.card__position{
+  font-size: 18px;
+  font-style: italic;
+  margin: 0px;
+}
+
+.card__picture{
+
+}
+
+.card__description{
+  font-size: 16px;
+}
+
+.special{
+  color: #ED6D05;
+  line-height: 22px;
+}
