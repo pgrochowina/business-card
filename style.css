@@ -60,6 +60,11 @@ body {
 .card__link {
   color: #e20613;
   text-decoration: none;
+  transition: color 1s linear;
+}
+
+.card__link:hover {
+  color: blue;
 }
 
 .card__description--with-top-margin {
