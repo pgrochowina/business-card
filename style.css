@@ -80,4 +80,10 @@ body {
 .special {
   color: #ed6d05;
   font-weight: normal;
+  opacity: 1;
+  transition: opacity 1s linear 0.5s;
+}
+
+.special:hover{
+  opacity: 0;
 }
