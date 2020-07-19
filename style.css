@@ -25,6 +25,11 @@ body {
   padding: 32px;
 }
 
+.card{
+  display: flex;
+  align-items: flex-start;
+}
+
 .card__header {
   margin-bottom: 24px;
 }
@@ -43,6 +48,7 @@ body {
 }
 
 .card__picture {
+  margin-right: 32px;
 }
 
 .card__description {
